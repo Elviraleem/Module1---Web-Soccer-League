@@ -1,0 +1,439 @@
+body {
+    margin: 0px;
+    background-color: whitesmoke;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Header */
+
+header {
+    display: flex;
+    background-image: url(samuel-zeller-34751-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    border-radius: 20px;
+    margin: 20px;
+    background-position: top;
+
+}
+
+header h1 {
+    display: flex;
+    align-items: center;
+    color: white;
+    background-color: red;
+    margin-left: 30px;
+    font-size: 40px;
+    letter-spacing: .5px;
+    text-align: left;
+    padding: 30px 20px 30px 170px;
+    width: 80%;
+    border-radius: 50px 0px;
+    box-shadow: 3px 3px 4px rgb(229, 18, 18);
+}
+
+.logo_title img {
+    position: absolute;
+    width: 150px;
+    left: 65px;
+    top: 60px;
+
+}
+
+.sectiontitle {
+    background-color: grey;
+    color: whitesmoke;
+    letter-spacing: .6px;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 18px;
+    padding: 20px 20px;
+    margin: 20px 20px;
+    border-radius: 30px 0px 30px 0px;
+    border-color: red
+}
+
+.normal {
+    font-weight: normal;
+}
+
+/* Navbar */
+
+nav > ul {
+    list-style-type: none;
+    text-decoration: none;
+    position: absolute;
+    top: 20px;
+    right: 35px;
+
+}
+
+.btn a {
+    text-decoration: none;
+    font-weight: 700;
+    background-color: red;
+    width: 90px;
+    box-shadow: 3px 3px 3px rgb(229, 18, 18);
+    text-align: center;
+    letter-spacing: .5px;
+}
+
+nav ul li {
+    padding: 10px;
+}
+
+nav > ul > li > a {
+    display: inline-block;
+    color: white;
+    padding: 7px 9px;
+    border-radius: 10px 0px
+}
+
+li a:hover {
+    background-color: rgb(229, 18, 18);
+}
+
+/* All the containers on different pages */
+
+/* Index */
+
+
+.container {
+    background-color: white;
+    padding: 40px 40px 50px 60px;
+    margin: 20px 20px;
+    border-radius: 50px 0px 50px 0px;
+    top: 600px;
+    border: red 2px solid;
+    line-height: 30px
+}
+
+/* Rules */
+
+.list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    background-color: white;
+    padding: 40px 40px 50px 60px;
+    margin: 20px 20px;
+    border-radius: 50px 0px 50px 0px;
+    border: red 2px solid;
+    font-weight: bold;
+    line-height: 30px
+}
+
+/* Games page, tables */
+
+.tables {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 40px 40px;
+    margin: 20px 20px;
+    padding: 60px;
+    border-radius: 50px 0px 50px 0px;
+    border: red 2px solid;
+    line-height: 25px;
+    background-color: white;
+}
+
+.underline {
+    text-align: left;
+    text-decoration: underline;
+}
+
+.table-container {
+    display: flex;
+justify-content: space-around;
+
+}
+
+.main-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+    padding: 60px;
+    border: red 2px solid;
+    border-radius: 50px 0px 50px 0px;
+    background-color: white;
+}
+
+.table1,
+.table2 {
+    border-spacing: 10px;
+}
+
+.heading {
+    background: red;
+    color: white;
+    text-align: center;
+}
+
+.heading th{
+    border-collapse: collapse;
+    padding: 5px;
+    letter-spacing: .5px;
+}
+
+.table3_container {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    padding: 20px
+}
+
+.table3{
+    border-spacing: 10px;
+}
+
+tbody tr td {
+    padding: 5px 15px;
+}
+
+tr {
+    background-color: rgb(137, 137, 137);
+}
+.heading{
+    padding: 10px 0px;
+    border-radius: 
+}
+
+.dates {
+    text-align: center;
+}
+
+/* Maps */
+
+.indent {
+    text-indent: 1em;
+}
+
+.content {
+    text-align: left;
+}
+
+
+.bold {
+    font-weight: bold;
+}
+
+.address {
+    margin: 0;
+    font-size: 15px;
+}
+
+h3 {
+    margin: 5px 0;
+    font-size: 18px
+}
+
+.grid {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    padding: 20px;
+
+}
+
+.map {
+    display: flex;
+    flex-flow: column wrap;
+    text-align: center;
+    margin: 20px;
+
+}
+
+/* Registration form */
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    padding: 60px;
+    border: red 2px solid;
+    border-radius: 50px 0px 50px 0px;
+    background-color: white;
+
+}
+
+.container1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.half_container1 {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    box-sizing: border-box;
+    padding: 20px
+}
+
+.half_container1 label {
+    padding: 10px;
+}
+
+.half_container1 input {
+    margin-top: 10px;
+    width: 100%;
+    height: 20px;
+    border-radius: 5px;
+}
+
+.half_container1 .date {
+    display: flex;
+    flex-direction: column;
+}
+
+.half_container1 input[type="date"] {
+    width: 38%;
+
+}
+
+.container2 {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.half_container2 {
+    display: flex;
+    order: 2;
+    flex-direction: column;
+    flex-grow: 1;
+    width: 100%;
+    margin-left: 60px;
+
+}
+
+.half_container2 p {
+    margin: 0px;
+}
+
+.half_container2 div {
+    padding: 20px;
+}
+
+half_container2 label {
+    margin-left: 20px;
+}
+
+.half_container2 input {
+    margin-right: 10px
+}
+
+.contact {
+    display: flex;
+    order: 1;
+    flex-direction: column;
+    flex-grow: 1;
+    margin-left: 30px;
+    width: 100%;
+}
+
+.contact label {
+    padding-bottom: 20px
+}
+
+.contact input {
+    margin-top: 10px;
+    width: 100%;
+    height: 20px;
+    border-radius: 5px;
+}
+
+.container3 {
+    display: flex;
+}
+
+.half_container3 {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    margin-left: 30px;
+}
+
+.half_container3 label {
+    padding-bottom: 20px;
+}
+
+.half_container3 select {
+    border-radius: 5px;
+    margin-left: 10px;
+    width: 200px;
+    height: 25px;
+}
+
+inner_half_container3 {
+    display: flex;
+}
+
+.half_container3r {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    margin-left: 105px;
+}
+
+.container4 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.half_container4 label {
+    margin-left: 20px;
+}
+
+.footer {
+    padding: 30px;
+    text-align: justify;
+}
+
+.footer input {
+    margin-left: 10px;
+    width: 300px;
+    height: 25px;
+    border-radius: 10px;
+
+}
+
+.date {
+    margin-left: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 30px 0px 0px 0px;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+button:hover {
+    background-color: #e80000;
+}
+
+.gototop{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+i{
+    display:flex;
+    font-size: 50px;
+    color: red;
+    cursor: pointer;
+}
+i:hover{
+  color: rgb(229, 18, 18);  
+}
